@@ -19,33 +19,33 @@ for group in groups:
     # print(team)
     # print(players)
 
-
 for player in players:
     # print(player)
-    # print(type(player))
-    for key, value in player.items():
-        print('key: ', key, '| value:  ', value)
+    statistics = player.get('statistics')
+    # print(type(statistics))
+    for statistic in statistics:
+        games = statistic.get('games')
+        # print('games: ',games)
+        # print('statistic: ',statistic, type(statistic))
+
+
+# for player in players:
+#     # print(player)
+#     # print(type(player))
+#     for key, value in player.items():
+#         print('key: ', key, '| value:  ', value)
+#         print('--------------------------')
     
 
-# l = []
 # for player in players:
-#     for key, value in player.items():
-#         l.append(player)
-#         # print('%%%%%%%%%%%%TOP%%%%%%%%%%%%%%%')
-#         # print(' player :', player)
-#         # print('************BOTTOM************')
-#         # print(type(player))
-#         # print(l)
+#     statistics = player.get('statistics')
+    # print(type(statistics))
+    # for statistic in statistics:
+    #     print('statistic: ',statistic, type(statistic))
+  
 
-# print(l)
-
-# count = 0
-# for i in l:
-#     print(i)
-#     count += 1
-#     print('player count: ', count)
-
-
+# for statistic in statistics:
+#     print('statistic: ',statistic)
 
 
 
@@ -201,17 +201,48 @@ for player in players:
 
 
 # v------------------------- this works ----------------------------v
+# for player in players:
+#     print('*********************************')
+#     print('player: ', player)
+#     print('*********************************')
 # ^------------------------- this works ----------------------------^
 
 
 # v------------------------- this works ----------------------------v
+# for player in players:
+#     statistics = player.get('statistics')
+    # print(type(statistics))
+    # for statistic in statistics:
+    #     print('statistic: ',statistic, type(statistic))
+  
+
+# for statistic in statistics:
+#     print('statistic: ',statistic)
 # ^------------------------- this works ----------------------------^
 
 
 
 # v------------------------- this works ----------------------------v
+# for player in players:
+#     statistics = player.get('statistics')
+#     # print(type(statistics))
+#     for statistic in statistics:
+#         games = statistic.get('games')
+#         print('games: ',games)
+        # print('statistic: ',statistic, type(statistic))
 # ^------------------------- this works ----------------------------^
 
+# v------------------------- this works ----------------------------v
+# ^------------------------- this works ----------------------------^
 
+# v------------------------- this works ----------------------------v
+# ^------------------------- this works ----------------------------^
 
+# v------------------------- this works ----------------------------v
+# ^------------------------- this works ----------------------------^
 
+# v------------------------- this works ----------------------------v
+# ^------------------------- this works ----------------------------^
+
+# v------------------------- this works ----------------------------v
+# ^------------------------- this works ----------------------------^

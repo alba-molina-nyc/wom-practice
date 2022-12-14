@@ -1,17 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # v------------------------- this works ----------------------------v
 
 # player_list = []
@@ -140,4 +126,58 @@
 #     print(player)
 #     count =+ 1
 #     print(count)
+# ^------------------------- this works ----------------------------^
+
+
+
+
+
+
+
+
+# v------------------------- this works ----------------------------v
+# for player in players:
+#     print('*********************************')
+#     print('player: ', player)
+#     print('*********************************')
+# ^------------------------- this works ----------------------------^
+
+
+# v------------------------- this works ----------------------------v
+# for player in players:
+#     statistics = player.get('statistics')
+    # print(type(statistics))
+    # for statistic in statistics:
+    #     print('statistic: ',statistic, type(statistic))
+  
+
+# for statistic in statistics:
+#     print('statistic: ',statistic)
+# ^------------------------- this works ----------------------------^
+
+
+
+# v------------------------- this works ----------------------------v
+# for player in players:
+#     statistics = player.get('statistics')
+#     # print(type(statistics))
+#     for statistic in statistics:
+#         games = statistic.get('games')
+#         print('games: ',games)
+        # print('statistic: ',statistic, type(statistic))
+# ^------------------------- this works ----------------------------^
+
+# v------------------------- this works ----------------------------v
+# ^------------------------- this works ----------------------------^
+
+# v------------------------- this works ----------------------------v
+# ^------------------------- this works ----------------------------^
+
+# v------------------------- this works ----------------------------v
+# ^------------------------- this works ----------------------------^
+
+# v------------------------- this works ----------------------------v
+# ^------------------------- this works ----------------------------^
+
+# v------------------------- this works ----------------------------v
 # ^------------------------- this works ----------------------------^
