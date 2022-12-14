@@ -3,6 +3,29 @@ with open("players.json", "r") as read_file:
     data = json.load(read_file)
     # print(data)
 
+# v------------------------- this works ----------------------------v
+
+# player_list = []
+# player_list.append(data.copy())
+
+# for player in player_list:
+#     print(player)
+
+# ^------------------------- this works ----------------------------^
+
+# v------------------------- this works ----------------------------v
+
+# player_list = []
+# player_list.append(data.copy())
+
+# for player in player_list:
+#     for key, value in player.items():
+#         print(key, value)
+
+# ^------------------------- this works ----------------------------^
+
+# v------------------------- this works ----------------------------v
+
 # team_name = data['response'][0]['team']['name']
 # team_logo = data['response'][0]['team']['logo']
 # player_name = data['response'][1]['players'][0]['player']['name']
@@ -21,57 +44,45 @@ with open("players.json", "r") as read_file:
 # cards = data['response'][1]['players'][0]['statistics'][0]['cards']
 # penalty = data['response'][1]['players'][0]['statistics'][0]['penalty']
 
-goals = data['response'][1]['players'][0]['statistics'][0]['goals']
-print(goals)
-print(type(goals))
+# ^------------------------- this works ----------------------------^
 
-for goal in goals:
-    for key, value in goals.items():
-        print(key)
-        print(value)
+# v------------------------- this works ----------------------------v
 
+# goals = data['response'][1]['players'][0]['statistics'][0]['goals']
+# print(goals)
+# print(type(goals))
 
-# print('goals: ', goals)
-# print('passes: ', passes)
-# print('tackles: ', tackles)
-# print('duels: ', duels)
-# print('dribbles: ', dribbles)
-# print('fouls: ', fouls)
-# print('cards: ', cards)
-# print('penalty: ', penalty)
+# for goal in goals:
+#     for key, value in goals.items():
+#         print(key)
+#         print(value)
+
+# ^------------------------- this works ----------------------------^
 
 
 
 
-# data['response'][1]['players'][0]['statistics'][0]['games']['position']['goals'],
-# data['response'][1]['players'][0]['statistics'][0]['games']['position']['passes'],
-# data['response'][1]['players'][0]['statistics'][0]['games']['position']['tackles'],
-# data['response'][1]['players'][0]['statistics'][0]['games']['position']['duels'],
-# data['response'][1]['players'][0]['statistics'][0]['games']['position']['dribbles'],
-# data['response'][1]['players'][0]['statistics'][0]['games']['position']['fouls'],
-# data['response'][1]['players'][0]['statistics'][0]['games']['position']['cards'],
-# data['response'][1]['players'][0]['statistics'][0]['games']['position']['penalty'],
-# data['response'][1]['players'][0]['statistics'][0]['games']['position']['offsides'])
-
-# data['response'][1]['players'][0]['statistics'][0]['games']['position']['shots']
-# data['response'][1]['players'][0]['statistics'][0]['games']['position']['goals']
-# data['response'][1]['players'][0]['statistics'][0]['games']['position']['passes']
-# data['response'][1]['players'][0]['statistics'][0]['games']['position']['tackles']
-# data['response'][1]['players'][0]['statistics'][0]['games']['position']['duels']
-# data['response'][1]['players'][0]['statistics'][0]['games']['position']['dribbles']
-# data['response'][1]['players'][0]['statistics'][0]['games']['position']['fouls']
-# data['response'][1]['players'][0]['statistics'][0]['games']['position']['cards']
-# data['response'][1]['players'][0]['statistics'][0]['games']['position']['penalty']
-# data['response'][1]['players'][0]['statistics'][0]['games']['position']['offsides']
 
 
-# $$$$$$$$$$$$$$$$$ These work              $$$$$$$$$$$$$$$$$
-# print('offsides: ', data['response'][1]['players'][0]['statistics'][0]['offsides'])
-# print('shots: ', data['response'][1]['players'][0]['statistics'][0]['shots']['total'])
-# print('shots_ontarget: ', data['response'][1]['players'][0]['statistics'][0]['shots']['on'])
-# print('team_name:', team_name)
-# print('team_logo: ', team_logo)
-# print('player_name: ', player_name)
-# print('player_photo: ', player_photo)
-# print('player_position: ', player_position)
-# $$$$$$$$$$$$$$$$$ These work              $$$$$$$$$$$$$$$$$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
